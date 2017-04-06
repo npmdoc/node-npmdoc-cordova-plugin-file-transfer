@@ -1,17 +1,40 @@
 {
-    "buildNpmdoc":"cordova-plugin-file-transfer",
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "buildNpmdoc": "cordova-plugin-file-transfer",
+    "description": "api documentation for [cordova-plugin-file-transfer (v1.6.2)](https://github.com/apache/cordova-plugin-file-transfer#readme) [![npm package](https://img.shields.io/npm/v/npmdoc-cordova-plugin-file-transfer.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-cordova-plugin-file-transfer) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-cordova-plugin-file-transfer.svg)](https://travis-ci.org/npmdoc/node-npmdoc-cordova-plugin-file-transfer)",
     "devDependencies": {
         "cordova-plugin-file-transfer": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "utility2": "kaizhu256/node-utility2#alpha"
     },
-    "name":"npmdoc-cordova-plugin-file-transfer",
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmdoc/node-npmdoc-cordova-plugin-file-transfer",
+    "keywords": [
+        "documentation",
+        "cordova-plugin-file-transfer"
+    ],
+    "license": "MIT",
+    "main": "lib.npmdoc_cordova_plugin_file_transfer.js",
+    "name": "npmdoc-cordova-plugin-file-transfer",
+    "nameAlias": "npmdoc_cordova_plugin_file_transfer",
+    "nameOriginal": "npmdoc-cordova-plugin-file-transfer",
+    "os": [
+        "darwin",
+        "linux"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/npmdoc/node-npmdoc-cordova-plugin-file-transfer"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh"
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.1"
+    "version": "0.0.2"
 }
