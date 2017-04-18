@@ -1,9 +1,14 @@
-# api documentation for  [cordova-plugin-file-transfer (v1.6.2)](https://github.com/apache/cordova-plugin-file-transfer#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-cordova-plugin-file-transfer.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-cordova-plugin-file-transfer) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-cordova-plugin-file-transfer.svg)](https://travis-ci.org/npmdoc/node-npmdoc-cordova-plugin-file-transfer)
+# npmdoc-cordova-plugin-file-transfer
+
+#### api documentation for  [cordova-plugin-file-transfer (v1.6.2)](https://github.com/apache/cordova-plugin-file-transfer#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-cordova-plugin-file-transfer.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-cordova-plugin-file-transfer) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-cordova-plugin-file-transfer.svg)](https://travis-ci.org/npmdoc/node-npmdoc-cordova-plugin-file-transfer)
+
 #### Cordova File Transfer Plugin
 
-[![NPM](https://nodei.co/npm/cordova-plugin-file-transfer.png?downloads=true)](https://www.npmjs.com/package/cordova-plugin-file-transfer)
+[![NPM](https://nodei.co/npm/cordova-plugin-file-transfer.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/cordova-plugin-file-transfer)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-cordova-plugin-file-transfer/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-cordova-plugin-file-transfer_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-cordova-plugin-file-transfer/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-cordova-plugin-file-transfer/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-cordova-plugin-file-transfer/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-cordova-plugin-file-transfer/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-cordova-plugin-file-transfer/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-cordova-plugin-file-transfer/build/screenCapture.npmPackageListing.svg)
 
@@ -77,37 +82,29 @@
     "license": "Apache-2.0",
     "maintainers": [
         {
-            "name": "bowserj",
-            "email": "bowserj@apache.org"
+            "name": "bowserj"
         },
         {
-            "name": "csantanapr",
-            "email": "csantana23@gmail.com"
+            "name": "csantanapr"
         },
         {
-            "name": "filmaj",
-            "email": "maj.fil@gmail.com"
+            "name": "filmaj"
         },
         {
-            "name": "nikhilkh",
-            "email": "nikhil.khandelwal@gmail.com"
+            "name": "nikhilkh"
         },
         {
-            "name": "purplecabbage",
-            "email": "purplecabbage@gmail.com"
+            "name": "purplecabbage"
         },
         {
-            "name": "shazron",
-            "email": "shazron@gmail.com"
+            "name": "shazron"
         },
         {
-            "name": "stevegill",
-            "email": "stevengill97@gmail.com"
+            "name": "stevegill"
         }
     ],
     "name": "cordova-plugin-file-transfer",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/apache/cordova-plugin-file-transfer.git"
@@ -121,16 +118,6 @@
     "version": "1.6.2"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module cordova-plugin-file-transfer](#apidoc.module.cordova-plugin-file-transfer)
-
-
-
-# <a name="apidoc.module.cordova-plugin-file-transfer"></a>[module cordova-plugin-file-transfer](#apidoc.module.cordova-plugin-file-transfer)
 
 
 
