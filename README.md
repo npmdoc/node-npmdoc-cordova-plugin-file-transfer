@@ -1,6 +1,6 @@
 # npmdoc-cordova-plugin-file-transfer
 
-#### api documentation for  [cordova-plugin-file-transfer (v1.6.2)](https://github.com/apache/cordova-plugin-file-transfer#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-cordova-plugin-file-transfer.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-cordova-plugin-file-transfer) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-cordova-plugin-file-transfer.svg)](https://travis-ci.org/npmdoc/node-npmdoc-cordova-plugin-file-transfer)
+#### basic api documentation for  [cordova-plugin-file-transfer (v1.6.2)](https://github.com/apache/cordova-plugin-file-transfer#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-cordova-plugin-file-transfer.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-cordova-plugin-file-transfer) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-cordova-plugin-file-transfer.svg)](https://travis-ci.org/npmdoc/node-npmdoc-cordova-plugin-file-transfer)
 
 #### Cordova File Transfer Plugin
 
@@ -115,7 +115,8 @@
         "test": "npm run lint && npm run style"
     },
     "types": "./types/index.d.ts",
-    "version": "1.6.2"
+    "version": "1.6.2",
+    "bin": {}
 }
 ```
 
